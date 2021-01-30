@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="appinventor.ai_andres_piegari.TeEscuchoDCH6j">
+
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/icono"
+        android:label="Tescucho">
+        <activity
+            android:name="appinventor.ai_andres_piegari.TeEscuchoDCH6j.Configuracion"
+            android:label="@string/title_activity_configuracion">
+
+        </activity>
+        <activity android:name="appinventor.ai_andres_piegari.TeEscuchoDCH6j.Inicio">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="appinventor.ai_andres_piegari.TeEscuchoDCH6j.Clasico"
+            android:label="TESCUCHO - SECUENCIAL">
+
+        </activity>
+        <activity
+            android:name="appinventor.ai_andres_piegari.TeEscuchoDCH6j.KaldiActivity"
+            android:label="TESCUCHO - CONTINUO">
+        </activity>
+    </application>
+
+</manifest>

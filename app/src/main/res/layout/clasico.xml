@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="appinventor.ai_andres_piegari.TeEscuchoDCH6j.Clasico"
+    android:keepScreenOn="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/abajo_marco">
+
+        <TextView
+            android:id="@+id/result_text2"
+            android:textSize="30sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scrollbars="vertical"
+            android:gravity="bottom"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/abajo_marco"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true">
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            android:max="30"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_above="@id/texto_barra2"/>
+
+
+        <TextView
+            android:id="@+id/texto_barra2"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_above="@id/imagenLogo"
+            />
+
+        <ImageView
+            android:id="@+id/imagenLogo"
+            android:layout_width="158dp"
+            android:layout_height="68dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/logo_sin_oreja"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/recognize_mic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="8dp"
+        android:layout_marginHorizontal="16dp"
+        android:src="@drawable/oreja_negra"
+        android:onClick="grabarClasico"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/recognize_mic_rojo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="8dp"
+        android:layout_marginHorizontal="16dp"
+        android:src="@drawable/oreja_negra"
+        android:visibility="invisible"
+        android:theme="@style/TemaOscuro2"
+    />
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/ir_a_continuo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="8dp"
+        android:layout_marginHorizontal="16dp"
+        app:srcCompat="@drawable/ic_all_inclusive_24px"
+        />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

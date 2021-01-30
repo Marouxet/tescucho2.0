@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tescucho</string>
+    <string name="recognize_file">Recognize File</string>
+    <string name="recognize_microphone">Recognize Microphone</string>
+    <string name="stop_microphone">Stop Microphone</string>
+    <string name="preparing">Preparando sistema. Por favor espere. \n</string>
+    <string name="ready">Presione en la oreja para comenzar a hablar\n</string>
+    <string name="failed">El sistema ha fallado. Por favor reinicie la app.%s\n</string>
+    <string name="elapsed">Result %s elapsed %d milliseconds\n</string>
+    <string name="starting">Preparando sistema\n</string>
+    <string name="say_something">\n</string>
+    <string name="title_activity_inicio_full">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_inicio">FullscreenActivity</string>
+    <string name="title_activity_configuracion">Configuracion</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <!-- Preferencias del diálogo para ir a la appstore -->
+    <string name="rate_dialog_title">Califica Tescucho!</string>
+    <string name="rate_dialog_message">Si Tescucho ha sido de utilidad, por favor calificala en la Playstore. Muchas gracias!</string>
+    <string name="rate_dialog_ok">Ir a la Playstore</string>
+    <string name="rate_dialog_cancel">Recuérdamelo en otro momento</string>
+    <string name="rate_dialog_no">No, Gracias</string>
+
+</resources>

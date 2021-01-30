@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Modo Oscuro">
+
+        <CheckBoxPreference
+            app:key="ModoOscuro"
+            app:title="Activar Modo Oscuro"
+            app:summary="Si se selecciona, la aplicación se mostrará en modo oscuro (fondos oscuros y texto claro). Se deberá reinciar la aplicación para que los cambios se apliquen correctamente."                />
+
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

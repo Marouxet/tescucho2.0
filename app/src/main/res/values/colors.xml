@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="naranja_fondo">#FF4D0D</color>
+    <color name="rojo_boton">#cc0000</color>
+    <color name="fondo_modoclaro">#8c8c8c</color>
+    <color name="blanco">#FFFFFF</color>
+</resources>
